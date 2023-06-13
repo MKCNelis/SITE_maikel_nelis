@@ -1,0 +1,135 @@
+:root{
+  --MainPrimaryColor      :#0B132B;/*darkblue color*/
+  --ShadeOfBlack          :#0E0E0F;/*a Blackish color*/
+  --ShadeOFGray           :#E8EDF2;/*a light shade of gray*/
+  --ShadeOfBlue           :#6FFFE9;/*a Light blue color*/
+  --DarkerShadeOfBlue     :#5BC0BE;/*a darker light blue color*/
+
+}
+Main 
+
+/*-------------------------------------------------Javascript--------------------------------------------------*/
+
+.body{
+  padding-top: 35vh;
+  background: #000;
+  color: #fff;
+}
+.entry{
+  font-size: 300%;
+  font-weight: bold;
+  width: auto;
+}
+ 
+.entry2{
+  animation-delay: 5s;
+  font-size: 100%;
+  font-weight: bold;
+  width: auto;
+  
+}
+ 
+
+.typed-cursor{
+  opacity: 1;
+  font-size: 300%;
+  animation: blink 0.8s infinite ;
+}
+        
+@keyframes blink{
+  0%{
+    opacity: 1}
+  50%{
+    opacity: 0}
+  100%{
+    opacity: 1}
+}
+/*---------------------------------------------------end of css for java---------------------------------------------- */
+.introPage{
+  background-color: var(--MainPrimaryColor);
+  color: var(--ShadeOFGray);
+ }
+/*navbar usabilities */
+#navbar {   
+  overflow: hidden;
+  background-color: var(--MainPrimaryColor);
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#navbar a {
+  background-color: 000000;
+  float: center ;
+  display: block;
+  color: var(--DarkerShadeOfBlue);
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background: var(--ShadeOfBlack);    
+  color: var(--ShadeOFGray);   
+}
+
+.main {
+  background-color: var(--ShadeOFGray) ;
+  color:var(--ShadeOfBlack);
+  font-family: Verdana;
+  padding: 16px;  
+  /*margin-top: 30px;*/
+  margin:30px 0 0 0;   
+  z-index: -1;
+}
+/*expalining the project styling*/
+.explain_Lab{
+  background:rgb(199, 199, 199);
+  color:azure;  
+  }
+
+#pageNavigation {
+  z-index: 3;
+}
+
+#navbar a:hover #pageNavigation .div {
+  height: 500px;
+  background-color: #000000ff;
+  z-index: 4
+}
+/*containers*/
+.container{
+  width: 90%;
+  margin-left: 5%;
+
+}
+.innercontainer{
+  width: 85%;
+  margin-left: 5%;
+
+}
+
+.dropcontent {
+  overflow: visible;
+}
+
+.blockcontainer{
+  width: 80%;
+  margin-left: 5%;
+}
+/*end your containers*/
+.img{
+  background-color: var(--ShadeOFGray);
+}
+.logo-me{
+  background-color: var(--DarkerShadeOfBlue);
+}
+.pdf-files{
+width: 100%;
+height: 100%;
+}
+.justify-content-center{
+  width: 100%;
+} 
