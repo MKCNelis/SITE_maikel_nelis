@@ -24,9 +24,9 @@
       
                 <nav class="navbar fixed-bottom navbar-dark bg-light">
                         <a class="navbar-brand" href="#"></a>
-            <div class="col-2" id="homePageMenu"><a href="./index.php#home">Home</a></div>
+                        <div class="col-2" id="homePageMenu"><a href="./index.php#home">Home</a></div>
             <div class="col-2"><a href="./AboutPage.php">About</a></div>
-            <div class="col-2"><a href="./LabPage.php">Lab</a></div>
+            <!--<div class="col-2"><a href="./LabPage.php">Lab</a></div>-->
             <div class="col-2"><a href="./ProjectPage.php">Projects</a></div>
             <div class="col-2"><a href="./ContactPage.php">Contact</a></div>
     

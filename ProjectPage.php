@@ -1,35 +1,11 @@
 <?php
 ?>
 <?php include('Consistant\header.php')?>
+<?php 
+Projects();
+?>
         <!--menu balk-->
-        <div class="row justify-content-center" id="navbar">
-                <div class="col-2" id="homePageMenu"><a href="./index.html#home">Home</a></div>
-                <div class="col-2"><a href="./AboutPage.html">About</a></div>
-                <div class="col-2"><a href="./LabPage.html">Lab</a></div>
-                <div class="col-2"><a href="./ProjectPage.html">Projects</a></div>
-                <div class="col-2"><a href="./ContactPage.html">Contact</a></div>
-                <div class="pos-f-t">
-                    <div class="collapse" id="navbarToggleExternalContent">
-                      <div class="bg-dark p-4">
-                        <h5 class="text-white h4">Collapsed content</h5>
-                        <span class="text-muted dropcontent">
-                                <div><a href="#Project 1">inovaties</a></div>
-                                <div><a href="#Project 2">inovatie 1</a></div>
-                                <div><a href="#Project 3">inovatie 2</a></div>
-                                <div><a href="#Project 4">inovatie 3</a></div>
-                                <div><a href="#Project 5">tussentijdse oefeningen</a></div>
-                                <div><a href="#Project 8">reflectie</a></div>
-                                <div><a href="#Project 9">bronnen</a></div>
-                            </span>
-                      </div>
-                    </div>
-                    <nav class="navbar navbar-dark bg-dark">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    </nav>
-                  </div>  
-        </div>
+    
          
 
         <!-- partial -->
